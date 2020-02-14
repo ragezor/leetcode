@@ -1,4 +1,4 @@
-package byteDancing;
+package byteDancing.stringTest;
 import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;

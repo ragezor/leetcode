@@ -1,4 +1,4 @@
-package byteDancing;
+package byteDancing.stringTest;
 /*题干
 给定一个未经排序的整数数组，找到最长且连续的的递增序列。
 示例 1:
