@@ -1,4 +1,4 @@
-package byteDance.stringTest;
+package byteDance.arrayAndSearch;
 import java.util.*;
 /*
 *题干和分析有点长 建议参考csdn总结：https://blog.csdn.net/qq_43491066/article/details/104325487
