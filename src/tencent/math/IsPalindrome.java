@@ -1,11 +1,11 @@
 package tencent.math;
-import  java.util.*;
+
 //总结地址：https://blog.csdn.net/qq_43491066/article/details/104540968
 public class IsPalindrome {
     public boolean isPalindrome(int x) {
         if (x < 0) {
             return false;
-        } else if ((x >= 0) && (x < 10)) {
+        } else if ( x < 10) {
             return true;
         } else {
 
