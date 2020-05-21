@@ -18,6 +18,7 @@ public class CanJump {
      return  false;
     }
     public  static  void main(String[] args){
+
         CanJump canJump=new CanJump();
         int [] test1={2,3,1,1,4};
         int [] test2={3,2,1,0,4};
