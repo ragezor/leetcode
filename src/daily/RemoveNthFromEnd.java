@@ -1,5 +1,6 @@
 package daily;
 //总结地址：https://blog.csdn.net/qq_43491066/article/details/109145599
+
 public class RemoveNthFromEnd {
     public ListNode removeNthFromEnd(ListNode head, int n) {
 
