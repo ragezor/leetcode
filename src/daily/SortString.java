@@ -7,7 +7,7 @@ public class SortString {
         for (int i=0;i<s.length();i++){
             count[s.charAt(i)-'a']++;
         }
-        StringBuffer stringBuffer=new StringBuffer();
+        StringBuilder stringBuffer=new StringBuilder();
         while (stringBuffer.length()<s.length()){
             for (int i = 0; i <26 ; i++) {
                 if(count[i]!=0){
