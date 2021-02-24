@@ -11,6 +11,7 @@ public class IsToeplitzMatrix {
             }
         }
         return true;
+
     }
 
 
