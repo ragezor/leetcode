@@ -35,7 +35,7 @@ public class SortList {
 
 //合并函数
     public ListNode merge(ListNode head1, ListNode head2) {
-        ListNode dummyHead = new ListNode(0);
+        ListNode dummyHead = new ListNode(0, head);
         ListNode temp = dummyHead,temp1=head1,temp2=head2;
         while (temp1!=null&&temp2!=null){
             //两个都有时选小的

@@ -6,7 +6,7 @@ public class InsertionSortList {
         if(head==null){
             return  head;
         }
-        ListNode dummyHead=new ListNode(0);
+        ListNode dummyHead=new ListNode(0, head);
         dummyHead.next=head;
         ListNode last=head, curr=head.next;
         while(curr!=null){

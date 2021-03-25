@@ -5,7 +5,7 @@ public class RemoveNthFromEnd {
     public ListNode removeNthFromEnd(ListNode head, int n) {
 
         ListNode first=head;
-        ListNode dummy=new ListNode(0);
+        ListNode dummy=new ListNode(0, head);
         dummy.next=head;
         ListNode second=dummy;
         for (int i = 0; i <n ; ++i) {
@@ -24,11 +24,11 @@ public class RemoveNthFromEnd {
 
     public static  void main(String[] args){
         RemoveNthFromEnd removeNthFromEnd=new RemoveNthFromEnd();
-        ListNode head=new ListNode(1);
-        head.next=new ListNode(2);
-        head.next.next=new ListNode(3);
-        head.next.next.next=new ListNode(4);
-        head.next.next.next.next=new ListNode(5);
+        ListNode head=new ListNode(1, head);
+        head.next=new ListNode(2, head);
+        head.next.next=new ListNode(3, head);
+        head.next.next.next=new ListNode(4, head);
+        head.next.next.next.next=new ListNode(5, head);
 
         ListNode ans=removeNthFromEnd.removeNthFromEnd(head,2);
         while(ans!=null){

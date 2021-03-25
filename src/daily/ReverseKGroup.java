@@ -1,9 +1,9 @@
 package daily;
-import  java.util.*;
+
 class ListNode {
      int val;
       ListNode next;
-      ListNode(int x) { val = x; }
+      ListNode(int x, ListNode head) { val = x; }
   }
 public class ReverseKGroup {
     public ListNode reverseKGroup(ListNode head, int k) {

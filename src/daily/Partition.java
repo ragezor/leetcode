@@ -2,9 +2,9 @@ package daily;
 //总结地址：https://blog.csdn.net/qq_43491066/article/details/112132181
 public class Partition {
     public ListNode partition(ListNode head, int x) {
-        ListNode  large=new ListNode(0);
+        ListNode  large=new ListNode(0, head);
         ListNode  largehead=large;
-        ListNode  small=new ListNode(0);
+        ListNode  small=new ListNode(0, head);
         ListNode smallhead=small;
         while(head!=null){
             if(head.val<x){
